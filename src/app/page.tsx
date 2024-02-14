@@ -73,19 +73,19 @@ function Navbar(): JSX.Element {
 
       <div className="flex flex-row justify-center items-center gap-10">
         <a
-          href="#contact"
+          href="https://github.com/STEM-Fellowship-Indicium"
           className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
         >
           GitHub
         </a>
         <a
-          href="#contact"
+          href="https://en.wikipedia.org/wiki/Travelling_salesman_problem"
           className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
         >
           What is TSP?
         </a>
         <a
-          href="#contact"
+          href="https://www.stemfellowship.org/"
           className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
         >
           STEM Fellowship
