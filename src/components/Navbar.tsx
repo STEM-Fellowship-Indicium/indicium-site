@@ -10,28 +10,28 @@ export default function Navbar(): JSX.Element {
         height={150}
       />
 
-      <div className="flex flex-row justify-center items-center gap-10">
+      <div className="flex flex-row justify-center items-center gap-4">
         <a
           href="https://github.com/STEM-Fellowship-Indicium"
-          className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
+          className="text-slate-400 rounded-lg duration-300 ease-in-out cursor-pointer px-7 py-4 hover:bg-slate-100"
         >
           GitHub
         </a>
         <a
           href="https://discord.gg/QPsvnrHXSC"
-          className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
+          className="text-slate-400 rounded-lg duration-300 ease-in-out cursor-pointer px-7 py-4 hover:bg-slate-100"
         >
           Discord
         </a>
         <a
           href="https://en.wikipedia.org/wiki/Travelling_salesman_problem"
-          className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
+          className="text-slate-400 rounded-lg duration-300 ease-in-out cursor-pointer px-7 py-4 hover:bg-slate-100"
         >
           What is TSP?
         </a>
         <a
           href="https://www.uoguelph.ca"
-          className="text-slate-400 hover:underline duration-300 ease-in-out cursor-pointer"
+          className="text-slate-400 rounded-lg duration-300 ease-in-out cursor-pointer px-7 py-4 hover:bg-slate-100"
         >
           The University of Guelph
         </a>
