@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Navbar(): JSX.Element {
   return (
-    <div className="flex gap-10 text-center fixed w-screen flex-row items-center justify-between p-7 z-50">
+    <div className="flex gap-10 text-center bg-white fixed w-screen flex-row items-center justify-between p-7 py-6 z-50">
       <Image
         src="/images/stemfellowship-logo.png"
         alt="Indicium Logo"
-        width={150}
-        height={150}
+        width={120}
+        height={120}
       />
 
       <div className="flex flex-row justify-center items-center gap-4">

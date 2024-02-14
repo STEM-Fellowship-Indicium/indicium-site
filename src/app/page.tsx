@@ -42,13 +42,13 @@ export default function Home() {
           <div className="z-10 mt-7 flex flex-row gap-4">
             <a
               href="/learn-more"
-              className="tracking-wide rounded-lg bg-indigo-600 px-7 py-4 text-sm font-normal text-white duration-300 ease-in-out hover:px-14"
+              className="tracking-wide text-center rounded-lg bg-indigo-600 px-7 py-4 text-sm font-normal text-white duration-300 ease-in-out hover:px-14"
             >
               Learn More
             </a>
             <a
               href="mailto:tsimps01@uoguelph.ca"
-              className="tracking-wide rounded-lg bg-slate-900 px-7 py-4 text-sm font-normal text-white duration-300 ease-in-out hover:px-14"
+              className="tracking-wide text-center rounded-lg bg-slate-900 px-7 py-4 text-sm font-normal text-white duration-300 ease-in-out hover:px-14"
             >
               Get in touch
             </a>
